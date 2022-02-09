@@ -12,7 +12,7 @@ const readline = require("readline-sync");
     var linkserver = readline.question('[?] Link Server Discord : ')
 
     const browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         defaultViewport: null,
       });
 
